@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: capitalize;
+}
+nav{
+    height: 50px;
+    background-color: chartreuse;
+    width: 100vw;
+}
+nav ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+#nav-list li{
+    margin-top: 7px;
+}
+#nav-list{
+    list-style-type:none;
+}
+#profile{
+    height: 30px;
+}
+#cart{
+    height: 30px;
+}
+#nav1{
+    background-color:chartreuse;
+    height: 55px;
+}
+#signin{
+    width: 97px;
+    height: 40px;
+    background-color: #000000;
+    display: inline-block;
+    position: relative;
+    left: 67vw;
+    bottom: 41px;
+    border-radius: 4px;
+    color: white;
+}
+input[type = "text"]{
+    width: 30vw;
+    display: inline-block;
+    position: relative;
+    left: 31vw;
+    height: 34px;
+    margin-top: 9px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.container2{
+    margin-top: 30px;
+    width: 100vw;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: 33vw 33vw 33vw; */
+    justify-content: space-evenly;
+    row-gap: 10vh;
+}
+.container2 img{
+    width: 307px;
+    height: 460px;
+    box-shadow: 7.5px 7.5px 12px rgb(17, 12, 13);
+}
+figure:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+#profile{
+    height: 30px;
+}
+#cart{
+    height: 30px;
+}
+footer{
+    background-color: black;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    
+}
+.socialIcons a{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 35px;
+}
+.footerNav{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    color: white;
+    margin: 35px;
+}
+.footerBottom{
+    color: white;
+    text-align: center;
+}
